@@ -1,0 +1,11 @@
+{
+  "/api/bybit/*": {
+    "target": "https://api.bybit.com/v5",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/api/bybit": ""
+    }
+  }
+}
